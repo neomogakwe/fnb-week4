@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="heading" onclick="changeText()">JAVASCRIPT</h1>
+     <p id="addition"></p>
+    <script>
+        document.getElementById("addition").innerHTML =addNumbers(10, 20);
+
+        function changeText(){
+            if( document.getElementById("heading").innerHTML == 'JAVASCRIPT'){
+                document.getElementById("heading").innerHTML = 'is awesome';
+            }else{
+                document.getElementById("heading").innerHTML = 'Javascript'
+            }
+        }
+
+        function addNumbers(num1, num2){
+            return num1 + num2;
+    
+
+        }
+
+    </script>
+</body>
+</html>

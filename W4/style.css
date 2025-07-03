@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+}
+/* login.html */
+#login h1{
+    text-align: center;
+    color:rgba(0, 0, 139, 0.664);
+}
